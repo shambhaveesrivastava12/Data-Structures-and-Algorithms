@@ -10,6 +10,15 @@ public class singlelinklist
             this.next=null;
         }
     }
+    public void display()
+    {
+        ListNode current = head;
+        while(current!=null)
+        {
+            System.out.println(current.data + " -> ");
+            current= current.next;
+        }
+    }
     public static void main(String args[])
     {
         singlelinklist obj = new singlelinklist();
