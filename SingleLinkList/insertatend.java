@@ -1,4 +1,4 @@
-public class insertelement { //insertion at beginning
+public class insertatend {
     private ListNode head;
 
     private static class ListNode{
@@ -24,15 +24,23 @@ public void display()
     System.out.println("null");
 }
 
-public void insertatfront(int value)
+public void insertlast(int value)
 {
     ListNode newNode = new ListNode(value);
-    newNode.next = head;
-    head = newNode;
+    if(head==null){
+        head = newNode;
+        return;
+    }
+    ListNode current = head;
+    while(current.next!=null)
+    {
+      current=current.next;
+    }
+    current.next=newNode;
 }
 public static void main(String args[])
 {
- insertelement obj = new insertelement();
+ insertatend obj = new insertatend();
  obj.head = new ListNode(12);
  ListNode first = new ListNode(14);
  ListNode second = new ListNode(18);
@@ -42,11 +50,13 @@ public static void main(String args[])
  obj.head.next=first;
  first.next=second;
  second.next=third;
- System.out.println("Before insertion a front:");
+ System.out.println("Before insertion at end:");
  obj.display();
 
  System.out.println("After insertion at front:");
- obj.insertatfront(23);
+ obj.insertlast(23);
  obj.display();
 }
 }
+
+
