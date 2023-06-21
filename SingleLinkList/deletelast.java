@@ -62,7 +62,7 @@ public static void main(String args[])
     obj.insertatfront(8);
     obj.insertatfront(11);
     System.out.println("Before deletion:");
-    obj.display();
+    obj.display(); 
     System.out.println(obj.deleteatlast());
     System.out.println("After deletion:");
     obj.display();
