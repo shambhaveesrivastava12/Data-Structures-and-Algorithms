@@ -62,7 +62,3 @@ Please adhere to the following code style guidelines:
 ## Community
 
 Join our community of DSA enthusiasts! You can engage with other contributors, ask questions, and share your knowledge in the [Discussions](../../discussions) section.
-
-## License
-
-By contributing to this project, you agree that your contributions will be licensed under the [MIT License](LICENSE.md).
