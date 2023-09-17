@@ -30,10 +30,6 @@ Explore the folders and navigate to the specific topic or algorithm you're inter
 
 Contributions are welcome! If you have additional algorithms, optimizations, or bug fixes to share, please feel free to submit a pull request. Make sure to follow the contribution guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 Special thanks to all contributors and the open-source community for making this repository a valuable resource for learning and practicing DSA.
