@@ -50,3 +50,5 @@ public static void main(String args[])
  obj.display();
 }
 }
+
+//just a sample
