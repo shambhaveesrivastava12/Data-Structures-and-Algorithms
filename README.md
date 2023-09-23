@@ -35,3 +35,5 @@ Contributions are welcome! If you have additional algorithms, optimizations, or 
 Special thanks to all contributors and the open-source community for making this repository a valuable resource for learning and practicing DSA.
 
 Happy coding!
+
+## THE END
